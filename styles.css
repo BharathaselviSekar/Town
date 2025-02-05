@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    
+}
+
+img {
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#banner-section {
+    width: 100%;
+    height: 400px;
+    background-image: url("images/Temple-Tower.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+.town-name {
+    padding: 10px 20px;
+    background-color: #1d3557;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.about-town {
+    padding: 10px 20px;
+    background-color: #457b9d;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#activities-section {
+    padding: 20px;
+    background-color: #f1faee;
+    padding:10px 20px 40px;
+}
+
+.activities {
+    color: #1d3557;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.places-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.places-card {
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+.places-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.places-card h4 {
+    color: #1d3557;
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+
+.places-card p {
+    color: #1d3557;
+    font-size: 14px;
+}
+
+#guide-section {
+    padding: 10px 15px;
+    background-color: #a8dadc;
+    text-align: left;
+    border-radius: 10px;
+    margin: 40px 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    border-bottom:4px solid #1d3557;
+}
+
+#guide-section h3 {
+    color: #1d3557;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#guide-section p {
+    color: #1d3557;
+    font-size: 16px;
+}
+
+#guide-section h4 {
+    color: #1d3557;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#guide-section img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.guide-card{
+    margin:15px 30px;
+
+}
